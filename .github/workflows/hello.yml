@@ -1,0 +1,13 @@
+name: Hello Api
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say_hi:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Say Hi
+        run: echo "Hello World"
