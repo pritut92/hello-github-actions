@@ -11,3 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         name: Checking out our code
+
+      - name: Checking that Luis is not cheating
+        run: "ls -l"
