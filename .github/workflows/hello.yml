@@ -9,5 +9,5 @@ jobs:
   say_hi:
     runs-on: ubuntu-18.04
     steps:
-      - name: Say Hi
-        run: echo "Hello World Jensen Students"
+      - uses: actions/checkout@v3
+        name: Checking out our code
